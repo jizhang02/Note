@@ -18,3 +18,4 @@ Thus, this note records the installation of Singularity on WSL.
   * [Singularity 容器使用介绍](https://www.xiexianbin.cn/hpc/singularity/index.html)
   * [Singularity实践教程 + Docker 转 Singularity 的避坑指南](https://blog.csdn.net/Tanqy1997/article/details/125304273)
   * [Docker Image Anaconda3](https://hub.docker.com/r/continuumio/anaconda3)
+  * [](https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo)
