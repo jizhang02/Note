@@ -22,7 +22,7 @@ Thus, this note records the installation of Singularity on WSL.
 In step 5, before installing opengate or a library, I create a conda environment via `conda create -n mc python=3.9`, this can prevent from being affected by other complicated settings. To make the `mc` environment as default, change the `~/.bashrc`, add a line `conda activate mc` or `export PATH="/opt/conda/envs/mc/bin:$PATH" `, then `source ~/.bashrc` to make it into effect.
 
 In step 7, when I want run a real program, it should mount a folder where the data and scripts are located in.    
-`sudo singularity shell -B /my absolute path conda_single.sif`
+`sudo singularity run -B /my absolute path conda_single.sif`
 
 #### Reference
   * [Singularity 容器使用介绍](https://www.xiexianbin.cn/hpc/singularity/index.html)
