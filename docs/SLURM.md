@@ -19,6 +19,7 @@ This note reveals very basic usage of shell script based on SLURM.
 `#SBATCH --out=absolute path/sim_result_%a.txt` output different jobs' results
 
 🔸simple version:    
+
 `#!/bin/bash`   
 `#SBATCH -p partition1; partition2; partition3...`    
 `#SBATCH -c 1`    
