@@ -63,7 +63,7 @@ import sys
 ...
 
 # each job correponding to a specific data with passed arguement from shell
-filename = 'patient_'+str(sys.argv[1])+'.mhd'
+filename = 'data_'+str(sys.argv[1])+'.suffix'
 
 print(f"{filename} is being processed...")
 
