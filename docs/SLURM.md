@@ -100,6 +100,7 @@ exit
 ### Common commands on cluster
 * `sinfo` see the cluster information
 * `squeue -l` see the jobs
+* `squeue --start` see the waiting jobs
 * `scontrol show partition name` or `scontrol show node name` or `scontrol show job name` see specific part
 * `scancel jobid` cancel a job
 * `scancel -u username` cancel all jobs with a user
