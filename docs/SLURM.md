@@ -97,5 +97,14 @@ exit
 ```
 👉 in command line `sbatch pytestmulti.sh`
 
+### Common commands on cluster
+* `sinfo` see the cluster information
+* `squeue -l` see the jobs
+* `scontrol show partition name` or `scontrol show node name` or `scontrol show job name` see specific part
+* `scancel jobid` cancel a job
+* `scancel -u username` cancel all jobs with a user
+* `scancel -u username -p partition` cancel jobs witha a user under certain partition
+
+
 ### Reference
 * [sbatch in SLURM](https://slurm.schedmd.com/sbatch.html)
