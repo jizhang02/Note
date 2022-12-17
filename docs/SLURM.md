@@ -105,6 +105,7 @@ exit
 * `scancel jobid` cancel a job
 * `scancel -u username` cancel all jobs with a user
 * `scancel -u username -p partition` cancel jobs witha a user under certain partition
+* `sacct -j ID-number` the state of a job,  four states: Pending; Running; Completed;Failed
 
 
 ### Reference
