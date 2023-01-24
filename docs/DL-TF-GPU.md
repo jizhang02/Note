@@ -12,10 +12,10 @@ The workflow of performing a dl program under WSL/Linux system:
   - under **tf-gpu**:
     - `nvidia-smi` after installing the NVIDIA GPU driver
     - `conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0`
-    - Configure the system paths. `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/`
+    - configure the system paths. `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/`
     - `pip install --upgrade pip`
     - `pip install tensorflow` (version 2.11.0); etc.
-    - Verify install `python` -> `import tensorflow as tf` -> `print(tf.reduce_sum(tf.random.normal([1000, 1000])))` `print(tf.config.list_physical_devices('GPU'))`. If output is `[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]`, then succeessful.
+    - verify install `python` -> `import tensorflow as tf` -> `print(tf.reduce_sum(tf.random.normal([1000, 1000])))` `print(tf.config.list_physical_devices('GPU'))`. If output is `[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]`, then succeessful.
     - test if it is runnable
  * Running dl programs on Cluster GPU
    - pull a image `sudo singularity -d build --sandbox sandbox_tensorflow/ docker://continuumio/anaconda3`
