@@ -23,7 +23,7 @@ The workflow of performing a dl program under WSL/Linux system:
    - install tensorflow which already supports cpu and gpu `pip install tensorflow`
    - build the container into image: `sudo singularity build tensorflow_single.sif sandbox_tensorflow/`
    - uploading image file `tensorflow_single.sif` to cluster
-   - write shell file [example](/docs/SLURM.md)
+   - write shell file, select specific available GPU [example](/docs/SLURM.md)
    - run `sbatch test.sh`
   ### Reference
   * [tensorflow install guide](https://www.tensorflow.org/install/pip#windows-wsl2_1)
