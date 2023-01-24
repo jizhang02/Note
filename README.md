@@ -1,6 +1,7 @@
 # tech_notes
 
 Technical notes links:
+* [DL-TF-GPU](/docs/DL-TF-GPU.md)
 * [Pass Arguments methods in python](/docs/PassArguementsPython.md)
 * [Install Singularity on WSL](/docs/Install-Singularity-on-WSL.md) <!--it must be no space in the file!-->
 * [SLURM](/docs/SLURM.md)
