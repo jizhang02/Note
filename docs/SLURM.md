@@ -18,6 +18,8 @@ This note reveals very basic usage of shell script based on SLURM.
 `#SBATCH --array=1-4` specify job array, e.g. from 1 to 4, 4 jobs  
 `#SBATCH --out=absolute path/sim_result.txt` output results  
 `#SBATCH --out=absolute path/sim_result_%a.txt` output different jobs' results    
+`#SBATCH --error=error_%j.txt`    output error results      
+`#SBATCH --nodelist cn447` specify node    
 `mkdir $SLURM_SUBMIT_DIR/$SLURM_JOB_ID`  move output data to target directory    
 `cp -r /home/jzhang/python_code/DeepRT/ $SLURM_SUBMIT_DIR/$SLURM_JOB_ID`
 
@@ -109,6 +111,8 @@ exit
 * `scancel -u username` cancel all jobs with a user
 * `scancel -u username -p partition` cancel jobs witha a user under certain partition
 * `sacct -j ID-number` the state of a job,  four states: Pending; Running; Completed;Failed
+* `htop` see CPU info    
+* `nvidia-smi` see GPU info    
 
 
 ### Reference
