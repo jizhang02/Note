@@ -1,13 +1,16 @@
 # Play with vscode
 
-![what can vscode do](https://github.com/jizhang02/Figure-Factory/blob/472e64c1141a0046fa7d4aa6397533565344f928/Fig_CS/Figure-Factory-vscode.drawio.png)
+![what can vscode do](https://github.com/jizhang02/Figure-Factory/blob/b87a74a3a52fe7a383d39086468d05a2a57111cb/Fig_CS/Figure-Factory-vscode.drawio.png)
 
 Suppose the vscode is intalled under Windows OS, then vscode can do many things:
-* side by side editing any files, such as .py, .md, etc.
-* multiple platforms or extensions, based on personal requirements:
+* Side by side editing any files, such as .py, .md, etc.
+* Multiple platforms or extensions, based on personal requirements:
   * Local code developing
   * WSL
   * Remote SSH connecting
   * Container/Docker
- * Git, synchronize the code to GitHub.
-
+* Extensions:    
+  * Git, synchronize the code to GitHub.
+  * SFTP, uploading or downloading files from remote.
+  * LaTex, writing tex file.
+  * plenty of extensions...
