@@ -13,8 +13,11 @@
 [https://hub.docker.com/r/pytorch/pytorch/tags](https://hub.docker.com/r/pytorch/pytorch/tags)    
 
 #### Step 2: Install specific python libraries in sandbox    
-`sudo singularity shell --writable sandbox_tensorflow/`       
-`sudo singularity shell --writable sandbox_torch/`     
+  
+`sudo singularity build --sandbox image_name/ image_name.sif` Convert a singularity image to a sandox folder with superuse privileges       
+`sudo singularity shell --writable sandbox_tensorflow/` Shell writable to image_name       
+`sudo singularity shell --writable sandbox_torch/`   
+   
 `pip install libname`    
 test:    
 `python`   
