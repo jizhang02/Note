@@ -10,7 +10,7 @@ This note reveals very basic usage of shell script based on SLURM.
 🔸detailed version:
 
 `#!/bin/bash` tell computer to use which shell    
-`#SBATCH --partition=partition1; partition2; partition3...` select partitions based on available partitions  
+`#SBATCH --partition=partition1,partition2,partition3...` select partitions based on available partitions, comma, no space  
 `#SBATCH --gres=gpu:2` specify the gpu if has and the number of gpu    
 `#SBATCH --cpus-per-task=1` the number of cpu each task   
 `#SBATCH --ntasks=1` specify the number of tasks to run   
@@ -26,7 +26,7 @@ This note reveals very basic usage of shell script based on SLURM.
 🔸simple version:    
 
 `#!/bin/bash`   
-`#SBATCH -p partition1; partition2; partition3...`    
+`#SBATCH -p partition1,partition2,partition3...`    
 `#SBATCH -c 1`    
 `#SBATCH -n 1`     
 `#SBATCH -j anyname`    
@@ -43,7 +43,7 @@ Workflow of prepareing a shell script based on SLURM:
 
 ```
 #!/bin/bash
-#SBATCH --partition=partition1; partition2; partition3
+#SBATCH --partition=partition1,partition2,partition3
 #SBATCH --cpus-per-task=1
 #SBATCH --ntasks=1
 #SBATCH --job-name=myjob
@@ -83,7 +83,7 @@ dataload(/path/filename)
 
 ```
 #!/bin/bash
-#SBATCH -p partition1; partition2; partition3
+#SBATCH -p partition1,partition2,partition3
 #SBATCH -c 1
 #SBATCH -n 1
 #SBATCH -j myjob
