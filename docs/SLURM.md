@@ -93,9 +93,13 @@ dataload(/path/filename)
 cd  /path of python code
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
+start=$(date +%s)
 
 singularity run /absolute path/container.sif bash -c "source $HOME/set_environment.sh&& python test.py $SLURM_ARRAY_TASK_ID"
 
+end=$(date +%s)
+secs=$((end - start))
+printf 'This program takes %dd:%dh:%dm:%ds\n' $((secs/86400)) $((secs%86400/3600)) $((secs%3600/60)) \ $((secs%60))
 echo "   "
 echo "Finished."
 exit
