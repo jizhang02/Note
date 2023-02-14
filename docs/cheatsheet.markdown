@@ -1,53 +1,53 @@
 ### Odyssey in computer science
 ---
 ####  Pytorch
-* `torch.cuda.is_available()` 查看是否支持cuda
-* 主函数中：
-`torch.backends.cudnn.deterministic = True`  用以保证实验的可重复性
+* `torch.cuda.is_available()` check cuda
+* `tensorboard --logdir=/home/jing/python_code/DeepRT/torch/runs` use tensorboard web graph
+* 
 #### Conda
-* 查看版本 `conda --version`
-* 查看环境 `conda env list`
-* 安装某个版本 `conda install python==3.6` 
-* 创建环境 `conda create -n 新环境名 python=3.9`
-* 复制环境 `conda create -n 新环境名 --clone 旧环境名`
-* 删除原环境 `conda remove -n 旧环境名 --all`
-* 激活环境 `conda activate 环境名`
-* 关闭环境 `conda deactivate`
-* 导出环境 到另一个机器 
-  * `conda env export > 环境名.yaml`
-  * `conda env create -f 环境名.yaml`
+* `conda --version` check version
+* `conda env list` exsisted environments
+* `conda install python==3.6` install specific python
+* `conda create -n name python=3.9` create a conda env
+* `conda create -n newenv --clone oldenv` copy a conda env
+* `conda remove -n envname --all` delete a conda env
+* `conda activate envname` activate a conda env
+* `conda deactivate` close a conda env
+* export to another machone 
+  * `conda env export > envname.yaml`
+  * `conda env create -f envname.yaml`
 #### Python
-* 打印版本信息 `print(sys.version)`
-* 打印所有文件 `print(glob.glob("path/*.mhd"))`
-* 双循环 `for x, y in zip(directory_image, directory_label):`
-* 3 interpreters/environments
-  * Windows->Anaconda->base Python3.8 _for basics_
-  * Windows->Anaconda->pp   Python3.8 _for TODO_
+* `print(sys.version)` print python version
+* `print(glob.glob("path/*.mhd"))` print files names
+* ` files = os.listdir(path);    files.sort()` sort the files names
+* `for x, y in zip(directory_image, directory_label):` double loop
+* interpreters/environments
+  * Windows-> Python3.8 _for basics_
   * Ubuntu->Anaconda->mc    Python3.8 _for opengate_
-* 格式化打印 `print(f'text {variable:.3f}')`
+  * Ubuntu->Anaconda->base    Python3.8 _for basics_
+  * Ubuntu->Anaconda->tf-gpu    Python3.8 _for tensorflow gpu_
+  * Ubuntu->Anaconda->torch-gpu    Python3.8 _for pytorch gpu_
+* `print(f'text {variable:.3f}')` print in specific format
 #### Terminal
-* 查看ip地址 `hostname -I`
-* 查看ssh `ps -ef | grep ssh`
-* 查看python版本 `python --version`
-* 查看GPU信息 `nvidia-smi` 
-* 列出可用GPU `nvidia-smi -L` 
-* 新建文件 `touch test.py`
-* 编辑文件 `vi test.py`
-* 回到home `cd ~`
-* 运行sh文件 `bash xxx.sh`
-* 在PyCharm的Terminal输入Ubuntu，进入到Ubuntu的Terminal
-* 修改环境变量  `sudo vim /home/jing/.bashrc`
-* 增加多个环境变量 `export PATH=path1:path2: ...... :$PATH`
-* 使之生效 `source ~/.bashrc`
-* 更新软件列表 `sudo apt-get update`
-* 更新软件 `pip install opengate -U`
-* 卸载软件 `sudo apt-get remove --auto-remove qtcreator`
-* 查看文件/文件夹位置 `whereis`
-* 查看当前GPU的使用情况 `nvidia-smi`
-* 查看内存占用情况和进程 `htop`
-* 上传文件到远程cluster `scp -r /datapath/* username@ip address:/savepath/`
-* 查看文件个数 `ls -l . | egrep -c '^-'`
-* 剪辑音频长度 `ffmpeg -i input.mp3 -ss 00:01:00 -to 00:05:23.27 -c copy output.mp3`
+* `hostname -I` ip address
+* `ps -ef | grep ssh` check ssh
+* `python --version` check python version
+* `nvidia-smi` check GPU info
+* `nvidia-smi -L` check available GPU
+* `htop` check memory
+* `touch test.py` create a new file
+* `vi test.py` edit a file
+* `cd ~` come to home
+* `bash xxx.sh` run .sh file
+* `sudo vim /home/jing/.bashrc` modigy environment variables
+* `export PATH=path1:path2: ...... :$PATH` add multiple variables
+* `source ~/.bashrc` make it into effect
+* `sudo apt-get update` update software
+* `pip install opengate -U` update lib
+* `sudo apt-get remove --auto-remove qtcreator` uninstall software
+* `scp -r /datapath/* username@ip address:/savepath/` upload data to cluster
+* `ls -l . | egrep -c '^-'` check file numbers
+* `ffmpeg -i input.mp3 -ss 00:01:00 -to 00:05:23.27 -c copy output.mp3` edit audio length
 * 
 #### WSL=Windows subsystom linux
 * A good subsitute for vmware virtual machine.
@@ -55,8 +55,6 @@
 * version ` wsl -l -v`
 #### Opengate
 * GitHub https://github.com/OpenGATE/opengate
-* Opengate data path _/home/jing/anaconda3/envs/mc/lib/python3.8/site-packages/opengate/tests/data_
-* test files _/home/jing/anaconda3/envs/mc/lib/python3.8/site-packages/opengate/tests/src_
 * two parts
   * opengate_core -> C++ based
   * opengate -> Python based 
@@ -80,7 +78,6 @@
       gcm3                    (g/cm3)     克每立方厘米，密度单位
 
 
-* 运行程序前设置环境变量 `sudo vim /home/jing/.bashrc`
 * Simulation
   * Geometry
   * Physics
@@ -112,18 +109,24 @@
   * results/analyse->set measurements
   * the whole slice
   * the selected area 
-* scripts
+* Image->Lookup Tables, set different show ways
+* Analyse->Plot profile, make a plot of selected area
+* Image->Stacks->Statistics, statistics of a image
+* Image->Show Info, save image info to a file
 #### Medical Image Analysis Using Slicer software
-TODO
+* generate a gif 
+  * Modules-> Utilities->ScreenCapture
+  * Output type: video, image series, lightbox image
+* show : click left-up coner buttons on three views respectily
 
 #### Latex
-调整空白：
+adjust blank:
 
 `\setlength{\abovedisplayskip}{3pt} `    
 `\setlength{\belowdisplayskip}{3pt}`    
-调整图片标题与图距离:
+adjust the space between title and fig
 `\setlength{\abovecaptionskip}{-0.2cm}`    
-调整图片标题与下文距离
+adjust the distance between title and the below context
 `\setlength{\belowcaptionskip}{-1cm} `
 
 ```\begin{equation}
