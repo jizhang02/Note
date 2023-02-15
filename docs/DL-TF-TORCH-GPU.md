@@ -23,6 +23,13 @@ test:
 `python`   
 `import libname`    
 
+👽 a strange finding: 
+```
+singularity run image.sif
+pip install libname
+```
+✨a sandbox is not necessary!
+
 #### Step 3: Build sandbox into image file     
 `sudo singularity build image_tensorflow.sif sandbox_tensorflow/`    
 `sudo singularity build image_torch.sif sandbox_torch/`    
