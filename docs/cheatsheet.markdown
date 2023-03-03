@@ -113,6 +113,7 @@
 * Analyse->Plot profile, make a plot of selected area
 * Image->Stacks->Statistics, statistics of a image
 * Image->Show Info, save image info to a file
+* Color bar: Analyze > Tools > Calibration Bar
 #### Medical Image Analysis Using Slicer software
 * generate a gif 
   * Modules-> Utilities->ScreenCapture
