@@ -7,3 +7,4 @@
 * [SLURM](/docs/SLURM.md)
 * [Play with vscode](/docs/Play-with-vscode.md)    
 * [Cheatsheet](/docs/cheatsheet.markdown)
+* [Word Cloud](/docs/wordcloud.csv)
