@@ -10,6 +10,8 @@
 
 177Lu is a radioisotope with the chemical symbol Lu-177 and has a long half-life of about 6.73 days. Because of its low radioactive energy, it can be used to treat some cancers, such as neuroendocrine tumors, prostate cancer, and lymphoma.
 
+177Lu is commonly used in SPECT imaging because its gamma-ray energy range (113 keV and 208 keV) matches SPECT's energy-sensitive detectors. While PET can also detect these energies, the resolution of SPECT is better suited for this application.
+
 F18 stands for the radionuclide fluorine-18, a radioisotope used in medical imaging and molecular medicine research. f18 has a half-life of about 109 minutes and can be combined with a variety of biomolecules to form radiolabeled compounds, such as glucose (FDG) for PET scans to detect tumors and other diseases. f18 can also be be used for other radiolabeled compounds, such as fluorodeoxycholine (FCH) and fluorodeoxyglucose (FDM).
 
 ### SPECT
@@ -17,6 +19,7 @@ F18 stands for the radionuclide fluorine-18, a radioisotope used in medical imag
 The radiotracer used in SPECT technology typically has a long half-life and can therefore be imaged over a longer period of time, which makes SPECT technology well suited for the diagnosis and evaluation of diseases, such as cardiovascular, neurological and skeletal disorders. In addition, the relatively low cost of SPECT imaging allows the use of conventional radioisotopes and computer equipment for imaging, making it widely used in healthcare facilities.
 
 The radiotracer used in PET technology usually has a shorter half-life and needs to be imaged in a shorter period of time, so PET imaging technology is more suitable for early diagnosis and treatment monitoring of diseases, such as tumors and neurological diseases, etc. PET imaging technology has higher spatial resolution and sensitivity, which can provide more accurate molecular distribution information, and therefore is important for the diagnosis and treatment monitoring of certain diseases. It is important for the diagnosis and monitoring of certain diseases.
+
 
 ### MRI
 
