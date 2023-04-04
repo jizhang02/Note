@@ -114,6 +114,8 @@
 * Image->Stacks->Statistics, statistics of a image
 * Image->Show Info, save image info to a file
 * Color bar: Analyze > Tools > Calibration Bar
+* View 3D imagein 3 directions: Ctrl+Shift+H
+
 #### Medical Image Analysis Using Slicer software
 * generate a gif 
   * Modules-> Utilities->ScreenCapture
