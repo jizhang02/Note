@@ -4,3 +4,10 @@ Radiation Therapy,2.3
 Dosimetry,2.2
 Intrafractional motion, 2.1
 Altas-based segmentation, 2.0
+PET,1.0
+SPECT,1.0
+CT, 1.0
+Segmentation, 1.5
+Classification, 1.5
+Regression, 1.5
+Monte Carlo, 1.5
