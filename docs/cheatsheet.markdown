@@ -42,7 +42,7 @@
 * `sudo vim /home/jing/.bashrc` modigy environment variables
 * `export PATH=path1:path2: ...... :$PATH` add multiple variables
 * `source ~/.bashrc` make it into effect
-* unset PYTORCH_CUDA_ALLOC_CONF cancel the previous command
+* `unset PYTORCH_CUDA_ALLOC_CONF` cancel the previous command
 * `sudo apt-get update` update software
 * `pip install opengate -U` update lib
 * `sudo apt-get remove --auto-remove qtcreator` uninstall software
