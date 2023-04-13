@@ -98,6 +98,7 @@
 #### Hybrid programming between python and C/C++
 * Essence: python calls dynamic link libraries compiled by C/C++. e.g. convert the data types in python to those in c/c++, pass them to the compiled functions, and then convert returned parameters to the data types in python.
 * C/C++ --> dynamic link library (Pybind11) <-- Python
+
 #### Medical Image Analysis Using FIJI software
 * open/import a specific file in different formats
 * zoom in/out an image: +/- key
@@ -121,6 +122,8 @@
   * Modules-> Utilities->ScreenCapture
   * Output type: video, image series, lightbox image
 * show : click left-up coner buttons on three views respectily
+* Colar bar: Volume > Color Legend
+* Overlay: Left upper coner of show panel > F > B 
 
 #### Latex
 adjust blank:
