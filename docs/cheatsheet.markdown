@@ -117,6 +117,8 @@
 * Image->Show Info, save image info to a file
 * Color bar: Analyze > Tools > Calibration Bar
 * View 3D imagein 3 directions: Ctrl+Shift+H
+* Image > Stacks > Make Montage: show all slices in a table 
+* Process > Enhance Contrast: show pet image more clearly
 
 #### Medical Image Analysis Using Slicer software
 * generate a gif 
