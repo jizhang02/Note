@@ -20,8 +20,11 @@ These waves have wavelengths ranging from hundreds of kilometers to the extremel
 
 ### X-Ray
 X-rays are a type of **electromagnetic radiation** with high energy and short wavelength. They can pass through objects and be absorbed or scattered to form images on photosensitive film, phosphor screens or digital detectors. X-rays are commonly used in medical imaging, such as examining bones, internal organs, and soft tissue, and in industrial non-destructive inspection, such as inspecting metals, plastics, and food.
-### US
 
+### DSA 
+Digital Subtraction Angiography
+
+### US
 Ultrasound imaging is a medical imaging technique that uses **high-frequency sound waves** to image human tissue. Ultrasound imaging can generate two-dimensional or three-dimensional images of the inside of the human body by sending sound waves into human tissue and receiving their echo signals, which can be used to detect disease or monitor organ function. Ultrasound imaging is commonly used to examine organs such as gynecology, liver, pancreas, heart, etc., because it is a non-invasive imaging technique that does not have radiation and is relatively safe.
 
 During a conventional ultrasound examination, the doctor needs to stick the ultrasound probe tightly to the skin so that the ultrasound waves can be transmitted from under the skin and the echoes can be collected. However, the air between the skin and the probe can cause reflection and scattering of the ultrasound waves, degrading the image quality. Therefore, applying a layer of transparent glue (**ultrasound gel**) can eliminate the air between the skin and the probe, reduce the reflection and scattering of ultrasonic waves, and improve image quality. In addition, the glue can also increase the speed of ultrasound transmission, allowing the probe to detect deeper into tissues and organs, resulting in more accurate diagnostic results.
