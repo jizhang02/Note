@@ -118,6 +118,42 @@ exit
 * `htop` see CPU info    
 * `nvidia-smi` see GPU info    
 
+#### An entire example
+```
+#!/bin/bash 
 
+#SBATCH --partition=a6000,titanGPU
+#SBATCH --gres=gpu
+#SBATCH --cpus-per-task=6
+#SBATCH --ntasks 1
+##SBATCH --mem-per-cpu=1500MB
+#SBATCH -J LUDL
+#SBATCH --out=/home2/jzhang/python_code/log/%J-result.txt
+#SBATCH --error=/home2/jzhang/python_code/log/%J-error.txt
+
+
+# Move files to target directory
+mkdir $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
+cp -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/ $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
+# Run
+cd $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
+echo Working directory : $PWD
+echo "Start running..."
+start=$(date +%s)
+srun singularity exec --nv /home2/jzhang/image_torch.sif python3 $PWD/torch/main.py
+end=$(date +%s)
+secs=$((end - start))
+printf 'This program takes %dd:%dh:%dm:%ds\n' $((secs/86400)) $((secs%86400/3600)) $((secs%3600/60)) \ $((secs%60))
+echo " "
+echo `date "+%Y-%m-%d %H:%M:%S"`  
+# Move results to target directory
+cp -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/ $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
+# Delete results
+rm -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/localruns/*
+rm -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/predict/*
+rm -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/model/*
+
+exit
+```
 ### Reference
 * [sbatch in SLURM](https://slurm.schedmd.com/sbatch.html)
