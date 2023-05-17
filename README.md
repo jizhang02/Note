@@ -33,6 +33,7 @@ Technical notes on computer science and medical image analysis.
 * [Cheatsheet](/docs/cheatsheet.markdown)
 * [Word Cloud](/docs/wordcloud.csv)
 * [Medical Imaging](/docs/CT-PET-SPECT-MRI-US.md)
+* [Workflow of DL](/docs/DL-workflow.md)
 
 ## Contributing
 
