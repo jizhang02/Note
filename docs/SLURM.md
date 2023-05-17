@@ -6,7 +6,19 @@
 Suppose that an institue has already a cluster. They deploy SLURM to manage different user's jobs.
 This note reveals very basic usage of shell script based on SLURM.
 
-### Usage
+### Common commands on cluster
+* `sinfo` see the cluster information
+* `squeue -l` see the jobs
+* `squeue --start` see the waiting jobs
+* `scontrol show partition name` or `scontrol show node name` or `scontrol show job name` see specific part
+* `scancel jobid` cancel a job
+* `scancel -u username` cancel all jobs with a user
+* `scancel -u username -p partition` cancel jobs witha a user under certain partition
+* `sacct -j ID-number` the state of a job,  four states: Pending; Running; Completed;Failed
+* `htop` see CPU info    
+* `nvidia-smi` see GPU info    
+
+### Usage of shell file
 🔸detailed version:
 
 `#!/bin/bash` tell computer to use which shell    
@@ -20,8 +32,6 @@ This note reveals very basic usage of shell script based on SLURM.
 `#SBATCH --out=absolute path/sim_result_%a.txt` output different jobs' results    
 `#SBATCH --error=error_%j.txt`    output error results      
 `#SBATCH --nodelist cn447` specify node    
-`mkdir $SLURM_SUBMIT_DIR/$SLURM_JOB_ID`  move output data to target directory    
-`cp -r /home/jzhang/python_code/DeepRT/ $SLURM_SUBMIT_DIR/$SLURM_JOB_ID`
 
 🔸simple version:    
 
@@ -37,7 +47,7 @@ This note reveals very basic usage of shell script based on SLURM.
 Workflow of prepareing a shell script based on SLURM:
 
 ![slurm flowchart](https://github.com/jizhang02/Figure-Factory/blob/b1b6ccb6fb9fd26525a84803763934d77a264d92/Fig_CS/Figure-Factory-Page-3.drawio.png)
-* case 1: submit a single job
+* **Case 1: submit a single job**
 
 🐚 in shell (pytest.sh):
 
@@ -59,7 +69,7 @@ exit
 ```
 👉 in command line `sbatch pytest.sh`
 
-* case 2: submit mutiple jobs
+* **Case 2: submit mutiple jobs**
 
 📜 in python code (test.py):
 
@@ -106,19 +116,22 @@ exit
 ```
 👉 in command line `sbatch pytestmulti.sh`
 
-### Common commands on cluster
-* `sinfo` see the cluster information
-* `squeue -l` see the jobs
-* `squeue --start` see the waiting jobs
-* `scontrol show partition name` or `scontrol show node name` or `scontrol show job name` see specific part
-* `scancel jobid` cancel a job
-* `scancel -u username` cancel all jobs with a user
-* `scancel -u username -p partition` cancel jobs witha a user under certain partition
-* `sacct -j ID-number` the state of a job,  four states: Pending; Running; Completed;Failed
-* `htop` see CPU info    
-* `nvidia-smi` see GPU info    
+* **Case 3: save results**
 
-#### An entire example
+The results can be saved in the folder of jobid, so the jobid should be passed in to the python code.
+
+📜 in python code (test.py)
+```
+...
+
+jobid = str(sys.argv[1])
+best_model = jobid + '/torch/best_model.pth'
+
+...
+
+```
+🐚 in shell (deeptorchdir.sh)
+
 ```
 #!/bin/bash 
 
@@ -128,9 +141,8 @@ exit
 #SBATCH --ntasks 1
 ##SBATCH --mem-per-cpu=1500MB
 #SBATCH -J LUDL
-#SBATCH --out=/home2/jzhang/python_code/log/%J-result.txt
-#SBATCH --error=/home2/jzhang/python_code/log/%J-error.txt
-
+#SBATCH --out=/home2/jzhang/python_code/clusterlogs/%J-result.txt
+#SBATCH --error=/home2/jzhang/python_code/clusterlogs/%J-error.txt
 
 # Move files to target directory
 mkdir $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
@@ -140,20 +152,17 @@ cd $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
 echo Working directory : $PWD
 echo "Start running..."
 start=$(date +%s)
-srun singularity exec --nv /home2/jzhang/image_torch.sif python3 $PWD/torch/main.py
+srun singularity exec --nv /home2/jzhang/image_torch.sif python3 $PWD/torch/train.py $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
 end=$(date +%s)
 secs=$((end - start))
 printf 'This program takes %dd:%dh:%dm:%ds\n' $((secs/86400)) $((secs%86400/3600)) $((secs%3600/60)) \ $((secs%60))
 echo " "
 echo `date "+%Y-%m-%d %H:%M:%S"`  
-# Move results to target directory
-cp -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/ $SLURM_SUBMIT_DIR/$SLURM_JOB_ID
-# Delete results
-rm -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/localruns/*
-rm -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/predict/*
-rm -r /home2/jzhang/python_code/DeepRT/04pretherapy/torch/model/*
-
 exit
 ```
+
+👉 in command line `sbatch deeptorchdir.sh`
+
+
 ### Reference
 * [sbatch in SLURM](https://slurm.schedmd.com/sbatch.html)
