@@ -31,7 +31,6 @@ Technical notes on computer science and medical image analysis.
 * [SLURM](/docs/SLURM.md)
 * [Play with vscode](/docs/Play-with-vscode.md)    
 * [Cheatsheet](/docs/cheatsheet.markdown)
-* [Word Cloud](/docs/wordcloud.csv)
 * [Medical Imaging](/docs/medical-imaging.md)
 * [Workflow of DL](/docs/DL-workflow.md)
 
