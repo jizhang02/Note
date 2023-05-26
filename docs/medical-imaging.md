@@ -11,7 +11,7 @@
   * [CT](#ct)
   * [Pet and SPECT](#pet-and-spect)
   * [μ-map](#μ-map)
-* [Medical Words](medical-words)
+* [Medical Words](#medical-words)
 ### Prerequisite Knowledge
 #### Mechanical waves
 
