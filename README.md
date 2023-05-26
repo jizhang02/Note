@@ -32,7 +32,7 @@ Technical notes on computer science and medical image analysis.
 * [Play with vscode](/docs/Play-with-vscode.md)    
 * [Cheatsheet](/docs/cheatsheet.markdown)
 * [Word Cloud](/docs/wordcloud.csv)
-* [Medical Imaging](/docs/CT-PET-SPECT-MRI-US.md)
+* [Medical Imaging](/docs/medical-imaging.md)
 * [Workflow of DL](/docs/DL-workflow.md)
 
 ## Contributing
