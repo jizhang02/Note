@@ -95,6 +95,8 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 
 **PSMA**
 
+**PBPK**
+
 * clinical decision 临床决策    
 * lesion detection 病变检测    
 * pathological region 病理区域    
