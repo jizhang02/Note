@@ -177,6 +177,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * radiotherapy 放射疗法      
 * radiopharmaceutical 放射性药物 
 * pediatric radiology 儿科放射学  
+* proton radiotherapy 质子治疗
 * dose 剂量     
 * dosimetry 剂量测定法  
 * dose-volume histogram (DVH)   
