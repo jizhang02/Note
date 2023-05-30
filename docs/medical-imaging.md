@@ -130,6 +130,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * thorax 胸部 
 * torso 躯干  
 * enzyme 酶
+* small intestine 小肠
 
 ▶️ **Diseases**
 * cervical cancer 宫颈癌
