@@ -97,7 +97,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 
 **PBPK**
 
-#### Physiological structure and State
+▶️ **Physiological structure and State**
 * blood vessels 血管    
 * arteries and veins 动脉和静脉    
 * end diastole 舒张末期     
@@ -130,7 +130,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * thorax 胸部 
 * torso 躯干  
 
-#### Diseases
+▶️ **Diseases**
 * cervical cancer 宫颈癌
 * pulmonary nodule 肺结节  
 * epistemic uncertainty 认知不确定性  
@@ -152,7 +152,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * inflammatory cardiomyopathy 炎性心肌病 
 * after-effects 后遗症 
 
-#### Diagnosis and Treatment
+▶️ **Diagnosis and Treatment**
 
 * clinical decision 临床决策    
 * lesion detection 病变检测    
