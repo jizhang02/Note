@@ -97,121 +97,132 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 
 **PBPK**
 
-* clinical decision 临床决策    
-* lesion detection 病变检测    
-* pathological region 病理区域    
-* pulmonary nodule 肺结节    
-* pathology 病理    
-* dermatologists 皮肤科医生      
+#### Physiological structure and State
 * blood vessels 血管    
 * arteries and veins 动脉和静脉    
 * end diastole 舒张末期     
 * end systole 收缩末期     
 * Ejection Fraction 射血分数    
-* left ventricle 左心室    
+* left ventricle 左心室  
 * chamber 心室     
 * endocardium 内膜    
 * myocardium 心肌     
 * left atrium 左心房    
 * right ventricle 右心室    
-* cavity 腔     
-* cardiologist 心脏病专家     
-* Echocardiographic 超声心动图     
+* cavity 腔 
 * melanin 黑色素     
-* melanocytes 黑色素细胞    
-* dermatology 皮肤科    
-* dermoscopy 皮肤镜    
+* melanocytes 黑色素细胞 
 * esophagus 食管    
 * trachea 气管     
-* aorta 主动脉     
-* radiotherapy 放射疗法      
-* dose 剂量     
-* mucosa 黏膜       
+* aorta 主动脉 
+* mucosa 黏膜  
 * gestational 孕期     
 * trimesters 三个月     
-* fetus 胎儿     
-* iris 虹膜      
-* microscopy 显微镜检查      
-* obstetrics 产科      
-* gynecology 妇科      
-* abdominal circumference 腹围     
-* epistemic uncertainty 认知不确定性    
-* photoacoustic imaging 光声成像    
-* contrast agent/medium 造影剂    
-* sonographer 超声医师    
-* radiologist 放射科医生    
-* after-effects 后遗症     
+* fetus 胎儿   
 * placenta 胎盘     
+* iris 虹膜   
+* fundus 眼底 
+* abdominal circumference 腹围   
+* visceral adipose tissue 内脏脂肪组织     
+* subcutaneous adipose tissue 皮下脂肪组织  
+* ischia 坐骨  
+* thyroid 甲状腺 
+* thorax 胸部 
+* torso 躯干  
+
+#### Diseases
+* cervical cancer 宫颈癌
+* pulmonary nodule 肺结节  
+* epistemic uncertainty 认知不确定性  
 * malignancy 恶性肿瘤    
 * pneumonia 肺炎    
 * tuberculosis 结核      
-* schizophrenia 精神分裂症    
-* cardiovascular imaging 心血管图像     
-* hemodynamic 血液动力学     
-* abdominal imaging 腹部成像    
-* microscopy imaging 显微成像    
-* pediatric radiology 儿科放射学    
-* histopathology 组织病理学    
-* apical view 顶视图    
-* coronary artery stenosis 冠状动脉狭窄    
-* angiography 血管造影     
-* myocardial infarction 心肌梗塞    
-* Anthropometer 人体测量仪    
-* visceral adipose tissue 内脏脂肪组织     
-* subcutaneous adipose tissue 皮下脂肪组织      
-* oncology 肿瘤科     
-* ischia 坐骨     
-* inflammatory cardiomyopathy 炎性心肌病    
-* mammograms 乳腺X线照片    
-* fundus 眼底      
-* ophthalmology 眼科      
+* schizophrenia 精神分裂症  
 * Autism spectrum disorder 自闭症谱系障碍    
 * attention-deficit hyperactivity disorder 注意缺陷多动障碍     
-* cognitive impairment 认知障碍    
-* Schizophrenia 精神分裂症    
+* cognitive impairment 认知障碍       
 * Major depressive disorder 严重抑郁症     
 * Bipolar disorder 躁郁症     
 * epilepsy 癫痫     
-* seizure disorder 癫痫症    
-* epicardial electrogram 心外膜电图     
+* seizure disorder 癫痫症   
 * Alzheimer disease 阿尔茨海默病      
-* Parkinson’s disease 帕金森病    
-* etiology 病因    
-* test-bed 试验台     
+* Parkinson’s disease 帕金森病 
+* coronary artery stenosis 冠状动脉狭窄 
+* myocardial infarction 心肌梗塞 
+* inflammatory cardiomyopathy 炎性心肌病 
+* after-effects 后遗症 
+
+#### Diagnosis and Treatment
+
+* clinical decision 临床决策    
+* lesion detection 病变检测    
+* pathological region 病理区域    
+* pathology 病理    
+* histopathology 组织病理学  
+* anatomy 解剖学   
+* scalpel 解剖刀 
+* hemodynamic 血液动力学  
+* pharmaceutics 制药学     
+* pharmacokinetics 药物代谢动力学  
 * neurodegenerative 神经退行性     
-* neuropathology 神经病理学    
-* tactile feedback 触觉反馈    
-* holestic care 整体护理    
-* inpatient care 住院护理    
-* therapeutic regime 治疗方法     
-* intraoperative 术中     
-* Dosimetry 剂量测定法     
+* neuropathology 神经病理学  
+* cardiologist 心脏病专家    
+* cardiovascular imaging 心血管图像   
+* echocardiographic 超声心动图  
+* epicardial electrogram 心外膜电图   
+* dermatologists 皮肤科医生     
+* dermatology 皮肤科    
+* dermoscopy 皮肤镜    
+* radiologist 放射科医生  
+* radiotherapy 放射疗法      
+* radiopharmaceutical 放射性药物 
+* pediatric radiology 儿科放射学  
+* dose 剂量     
+* dosimetry 剂量测定法  
+* dose-volume histogram (DVH)   
 * nuclear decay 核衰变     
 * nuclear disintergration 核衰变    
 * bremsstrahlung 轫致辐射    
 * phantom 体模    
 * ion 离子     
+* plasma 血浆，等离子体 
 * vivo quantitation 体内定量    
 * vitro sampling 体外采样     
-* brachytherapy 近距离放射治疗    
-* glucose 葡萄糖     
-* anatomy 解剖学     
-* plasma 等离子体     
-* standard uptake values (SUVs) 标准摄取值    
+* brachytherapy 近距离放射治疗   
+* Volumetric Modulated Arc Therapy
+* intensity-modulated radiotherapy (IMRT)
+* external beam radiotherapy (EBRT)
+* organs at risk (OARs)
+* microscopy 显微镜检查      
+* obstetrics 产科      
+* gynecology 妇科      
+* angiography 血管造影  
+* photoacoustic imaging 光声成像    
+* contrast agent/medium 造影剂    
 * scintigraphy 扫描仪    
-* Photoplethysmography 光谱仪    
-* Intrafractional motion 治疗过程中的运动    
-* Pharmaceutics 制药学     
-* Pharmacokinetics 药物代谢动力学     
-* thyroid 甲状腺     
-* scalpel 解剖刀    
-* thorax 胸部     
-* radiopharmaceutical 放射性药物     
-* metastasis volume 转移瘤体积     
-* torso 躯干     
-* prevalence 患病率    
-* etiology 病因    
-* subtype 亚型    
+* Photoplethysmography 光谱仪   
+* anthropometer 人体测量仪  
+* abdominal imaging 腹部成像    
+* microscopy imaging 显微成像 
+* mammograms 乳腺X线照片  
+* apical view 顶视图    
+* sonographer 超声医师    
+* oncology 肿瘤科     
+* ophthalmology 眼科      
+* etiology 病因   
+* prevalence 患病率  
+* test-bed 试验台     
+* subtype 亚型   
+* tactile feedback 触觉反馈    
+* holestic care 整体护理    
+* inpatient care 住院护理    
+* therapeutic regime 治疗方法     
+* intraoperative 术中     
+* glucose 葡萄糖     
+* standard uptake values (SUVs) 标准摄取值    
+* Intrafractional motion 治疗过程中的运动        
+* metastasis volume 转移瘤体积      
+* treatment planning system (TPS) 治疗计划系统
 
 
 <div id="bottom"></div>
