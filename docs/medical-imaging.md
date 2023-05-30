@@ -129,6 +129,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * thyroid 甲状腺 
 * thorax 胸部 
 * torso 躯干  
+* enzyme 酶
 
 ▶️ **Diseases**
 * cervical cancer 宫颈癌
