@@ -119,14 +119,17 @@
 * View 3D imagein 3 directions: Ctrl+Shift+H
 * Image > Stacks > Make Montage: show all slices in a table 
 * Process > Enhance Contrast: show pet image more clearly
+* Image > Overlay: add another image on the current image
 
 #### Medical Image Analysis Using Slicer software
 * generate a gif 
   * Modules-> Utilities->ScreenCapture
   * Output type: video, image series, lightbox image
 * show : click left-up coner buttons on three views respectily
-* Colar bar: Volume > Color Legend
+* Colar bar: Volume > Color Legend. Or right click the image to show the color legent
 * Overlay: Left upper coner of show panel > F > B 
+* MIP: Lookup tables > PET-Maximum Intensity Projection
+* Isodose: In radiotherapy, set threshold value of each line
 
 #### Latex
 adjust blank:
