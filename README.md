@@ -2,9 +2,6 @@
 
 
 
-
-![Header Image](/docs/dream_thinkincss.jpg)
-
 # tech_notes
 
 
