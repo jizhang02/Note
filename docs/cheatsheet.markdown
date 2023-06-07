@@ -54,6 +54,7 @@
 * A good subsitute for vmware virtual machine.
 * 动态IP地址设置为静态 [solution](https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723)-> failed.
 * version ` wsl -l -v`
+* `sudo apt-get install x11-apps ` to support visualization, `xeyes` for testing
 #### Opengate
 * GitHub https://github.com/OpenGATE/opengate
 * two parts
