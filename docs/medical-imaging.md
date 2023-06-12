@@ -134,6 +134,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 
 ▶️ **Diseases**
 * cervical cancer 宫颈癌
+* esophageal cancer 食道癌
 * pulmonary nodule 肺结节  
 * epistemic uncertainty 认知不确定性  
 * malignancy 恶性肿瘤    
@@ -192,6 +193,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * vivo quantitation 体内定量    
 * vitro sampling 体外采样     
 * brachytherapy 近距离放射治疗   
+* interstitial brachytherapy 间隙放射治疗
 * Volumetric Modulated Arc Therapy
 * intensity-modulated radiotherapy (IMRT)
 * external beam radiotherapy (EBRT)
