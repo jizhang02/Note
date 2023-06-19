@@ -36,6 +36,9 @@ These waves have wavelengths ranging from hundreds of kilometers to the extremel
 #### X-Ray
 X-rays are a type of **electromagnetic radiation** with high energy and short wavelength. They can pass through objects and be absorbed or scattered to form images on photosensitive film, phosphor screens or digital detectors. X-rays are commonly used in medical imaging, such as examining bones, internal organs, and soft tissue, and in industrial non-destructive inspection, such as inspecting metals, plastics, and food.
 
+#### ECG
+#### Pathology
+
 #### DSA 
 Digital Subtraction Angiography
 
@@ -228,6 +231,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * Intrafractional motion 治疗过程中的运动        
 * metastasis volume 转移瘤体积      
 * treatment planning system (TPS) 治疗计划系统
+* Triage room 分诊室
 
 
 <div id="bottom"></div>
