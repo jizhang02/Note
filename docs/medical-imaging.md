@@ -1,3 +1,7 @@
+<div id="top"></div>
+
+[](#top)
+
 # Notes on medical imaging
 ### Table of content
 * [Prerequisite Knowledge](#prerequisite-knowledge)
@@ -5,6 +9,8 @@
   * [Electromagnetic waves](#electromagnetic-waves)
 * [Medical Imaging](#medical-imaging)
   * [X-Ray](#x-ray)
+  * [ECG](#ecg)
+  * [Pathology](#pathology)
   * [DSA](#dsa)
   * [Ultrasound](#ultrasound)
   * [MRI](#mri)
@@ -12,10 +18,14 @@
   * [Pet and SPECT](#pet-and-spect)
   * [μ-map](#μ-map)
 * [Medical Words](#medical-words)
+  * [Radionuclide](#radionuclide)
+  * [Physiological structure and State](#physiological-structure-and-state)
+  * [Diseases](#diseases)
+  * [Diagnosis and Treatment](#diagnosis-and-treatment)
 ### Prerequisite Knowledge
 #### Mechanical waves
 
-**Ultrasound** and **electromagnetic waves** are widely used in fields such as medicine and industry. Ultrasound can be used in medical diagnosis, non-destructive testing and other fields, such as echocardiography, ultrasound imaging, etc. Electromagnetic waves also have a wide range of applications, such as medical imaging, communication technology, radar and satellite communications. In medical imaging, electromagnetic waves include X-rays, CT scans, MRI and other technologies, all of which obtain image information by measuring the propagation and reflection of electromagnetic waves in the human body.
+**Ultrasound** and **electromagnetic waves** are widely used in fields such as medicine and industry. Ultrasound can be used in medical diagnosis, non-destructive testing, and other fields, such as echocardiography, ultrasound imaging, etc. Electromagnetic waves also have a wide range of applications, such as medical imaging, communication technology, radar, and satellite communications. In medical imaging, electromagnetic waves include X-rays, CT scans, MRI, and other technologies, all of which obtain image information by measuring the propagation and reflection of electromagnetic waves in the human body.
 
 **Mechanical waves** refers to the wave formed by the change of physical quantity (such as pressure, density, displacement, etc.) in the propagation medium with time and space. They require a medium as a medium of transmission and thus can only travel in matter. Common mechanical waves include sound waves, water waves, and seismic waves.
 
@@ -100,7 +110,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 
 **PBPK**
 
-▶️ **Physiological structure and State**
+### Physiological structure and State
 * blood vessels 血管    
 * arteries and veins 动脉和静脉    
 * end diastole 舒张末期     
@@ -135,7 +145,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * enzyme 酶
 * small intestine 小肠
 
-▶️ **Diseases**
+### Diseases
 * cervical cancer 宫颈癌
 * esophageal cancer 食道癌
 * pulmonary nodule 肺结节  
@@ -158,7 +168,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * inflammatory cardiomyopathy 炎性心肌病 
 * after-effects 后遗症 
 
-▶️ **Diagnosis and Treatment**
+### Diagnosis and Treatment
 
 * clinical decision 临床决策    
 * lesion detection 病变检测    
