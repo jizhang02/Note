@@ -11,7 +11,7 @@ Suppose the vscode is intalled under Windows OS, then vscode can do many things:
   * Container/Docker
 * Extensions:    
   * Git, synchronize the code to GitHub.
-  * SFTP and upload, uploading or downloading files from remote.
+  * SFTP or upload, uploading or downloading files from remote.
   * PDF Viewer.
   * Tree Exporter, export the directory structure of your project as a text-based tree.
   * LaTex, writing tex file.
