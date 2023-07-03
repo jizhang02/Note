@@ -8,6 +8,7 @@ This note reveals very basic usage of shell script based on SLURM.
 
 ### Common commands on cluster
 * `sinfo` see the cluster information
+* `squeue -u username` see the jobs under a user
 * `squeue -l` see the jobs
 * `squeue --start` see the waiting jobs
 * `scontrol show partition name` or `scontrol show node name` or `scontrol show job name` see specific part
