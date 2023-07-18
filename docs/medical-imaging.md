@@ -210,6 +210,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * Volumetric Modulated Arc Therapy (VMAT, 容积调制弧疗法)
 * intensity-modulated radiotherapy (IMRT)
 * external beam radiotherapy (EBRT)
+* treatment planning system (TPS) 治疗计划系统
 * organs at risk (OARs)
 * microscopy 显微镜检查      
 * obstetrics 产科      
@@ -240,7 +241,6 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * standard uptake values (SUVs) 标准摄取值    
 * Intrafractional motion 治疗过程中的运动        
 * metastasis volume 转移瘤体积      
-* treatment planning system (TPS) 治疗计划系统
 * Triage room 分诊室
 
 
