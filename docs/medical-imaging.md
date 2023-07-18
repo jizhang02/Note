@@ -207,7 +207,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * vitro sampling 体外采样     
 * brachytherapy 近距离放射治疗   
 * interstitial brachytherapy 间隙放射治疗
-* Volumetric Modulated Arc Therapy
+* Volumetric Modulated Arc Therapy (VMAT, 容积调制弧疗法)
 * intensity-modulated radiotherapy (IMRT)
 * external beam radiotherapy (EBRT)
 * organs at risk (OARs)
