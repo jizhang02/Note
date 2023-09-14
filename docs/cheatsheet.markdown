@@ -122,7 +122,7 @@
 * Image > Stacks > Images to Stack: make multiple images into a stack
 * Process > Enhance Contrast: show pet image more clearly
 * Image > Overlay: add another image on the current image
-* 
+* Export GIF: Image > Stacks > 3D Project, then click File > Save as > GIF
 
 #### Medical Image Analysis Using Slicer software
 * generate a gif 
