@@ -6,6 +6,8 @@ When we do high performance computing (HPC) on cluster, the corresponding runnin
 Luckily, Singlularity is just doing this. It's a platform that can load various containers. 
 Plus, Singularity is mainly used on Linux system. But personally I prefer to Windows system, in order to run programs on Linux, Windows Subsystem Linux (WSL) is a good choise.
 
+* How to install WSL: See [Official tutorial](https://learn.microsoft.com/en-us/windows/wsl/install#Overview) 
+
 Thus, this note records the installation of Singularity on WSL.
 ![flowchart](https://github.com/jizhang02/Figure-Factory/blob/becd08a8af7027a7f77a6cbcce654f6f810972f3/Fig_CS/Figure-Factory-install%20singularity.drawio.png)
 #### Installlation and Test
