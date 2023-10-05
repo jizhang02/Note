@@ -30,6 +30,7 @@
 * `print(f'text {variable:.3f}')` print in specific format
 #### Terminal
 * `hostname -I` ip address
+* `sudo vi /etc/hostname` change hostname, remember to reboot
 * `ps -ef | grep ssh` check ssh
 * `python --version` check python version
 * `nvidia-smi` check GPU info
@@ -49,12 +50,18 @@
 * `scp -r /datapath/* username@ip address:/savepath/` upload data to cluster
 * `ls -l . | egrep -c '^-'` check file numbers
 * `ffmpeg -i input.mp3 -ss 00:01:00 -to 00:05:23.27 -c copy output.mp3` edit audio length
-* 
+* `su root`, change to root user
+* `su jing`, change to other user
+* `sudo passwd root`, change password of root
 #### WSL=Windows subsystom linux
 * A good subsitute for vmware virtual machine.
 * 动态IP地址设置为静态 [solution](https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723)-> failed.
 * version ` wsl -l -v`
-* `sudo apt-get install x11-apps ` to support visualization, `xeyes` for testing
+* `sudo apt-get install x11-apps ` to support visualization, `xeyes` for testing.
+* in CMD, `ubuntu config --default-user jing or root`, change user or root user.
+* in CMD, `wsl --shutdown`, shutdown the wsl system.
+* in CMD, `wsl -l`, print info of OS.
+  
 #### Opengate
 * GitHub https://github.com/OpenGATE/opengate
 * two parts
