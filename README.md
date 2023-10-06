@@ -23,6 +23,7 @@ Technical notes on computer science and medical image analysis.
 
 * [Singularity container with tensorflow/pytorch GPU](/docs/DL-TF-TORCH-GPU.md)
 * [Pass Arguments methods in python](/docs/PassArguementsPython.md)
+* [Install OpenGATE on WSL](/docs/Install-OpenGATE-on-WSL.md) 
 * [Install Singularity on WSL](/docs/Install-Singularity-on-WSL.md) <!--it must be no space in the file!-->
 * [Insatall CUDA 12, Tensorflow 2.12 on WSL](/docs/Tensorflow-WSL.md)
 * [SLURM](/docs/SLURM.md)
