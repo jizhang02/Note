@@ -144,13 +144,16 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * torso 躯干  
 * enzyme 酶
 * small intestine 小肠
+* prostate 前列腺
+* rectum 肛门
 
 ### Diseases
 * cervical cancer 宫颈癌
 * esophageal cancer 食道癌
 * pulmonary nodule 肺结节  
 * epistemic uncertainty 认知不确定性  
-* malignancy 恶性肿瘤    
+* malignancy 恶性肿瘤
+* neuroendocrine tumors 神经内分泌肿瘤
 * pneumonia 肺炎    
 * tuberculosis 结核      
 * schizophrenia 精神分裂症  
@@ -170,8 +173,9 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 
 ### Diagnosis and Treatment
 
-* clinical decision 临床决策    
-* lesion detection 病变检测    
+* clinical decision 临床决策
+* lesion detection 病变检测
+* theranostics 诊疗   
 * pathological region 病理区域    
 * pathology 病理    
 * histopathology 组织病理学  
@@ -210,6 +214,7 @@ The **radiotracer used in PET** technology usually has a shorter half-life and n
 * Volumetric Modulated Arc Therapy (VMAT, 容积调制弧疗法)
 * intensity-modulated radiotherapy (IMRT)
 * external beam radiotherapy (EBRT)
+* peptide receptor radionuclide therapy （PRRT）肽受体放射性核素治疗 
 * treatment planning system (TPS) 治疗计划系统
 * organs at risk (OARs)
 * microscopy 显微镜检查      
