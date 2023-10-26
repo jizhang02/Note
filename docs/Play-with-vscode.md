@@ -1,8 +1,8 @@
-# Play with vscode
+# Play with VSCode
 
-![what can vscode do](https://github.com/jizhang02/Figure-Factory/blob/b87a74a3a52fe7a383d39086468d05a2a57111cb/Fig_CS/Figure-Factory-vscode.drawio.png)
+![what can VSCode do](https://github.com/jizhang02/Figure-Factory/blob/b87a74a3a52fe7a383d39086468d05a2a57111cb/Fig_CS/Figure-Factory-vscode.drawio.png)
 
-Suppose the vscode is intalled under Windows OS, then vscode can do many things:
+Suppose the VSCode is intalled under Windows OS, then VSCode can do many things:
 * Side by side editing any files, such as .py, .md, etc.
 * Multiple platforms or extensions, based on personal requirements:
   * Local code developing
@@ -16,3 +16,11 @@ Suppose the vscode is intalled under Windows OS, then vscode can do many things:
   * Tree Exporter, export the directory structure of your project as a text-based tree.
   * LaTex, writing tex file.
   * plenty of extensions...
+
+An example:    
+1. Open one of your repos in GitHub by GitHub Desktop;
+2. Then open the repo and edit your code in the VSCode;
+3. Stage changes;
+4. Commit changes;
+5. Synchronize to GitHub.
+![pipeline of editing code](./vscode.png)
