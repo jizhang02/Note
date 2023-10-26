@@ -18,9 +18,13 @@ Suppose the VSCode is intalled under Windows OS, then VSCode can do many things:
   * plenty of extensions...
 
 An example of Git and VSCode linkage:    
-1. Open one of your repos in GitHub by GitHub Desktop (you can also open it in online codespaces);
+1. Open one of your repos in GitHub by GitHub Desktop;
 2. Then open the repo and edit your code in the VSCode;
 3. Stage changes;
 4. Commit changes;
 5. Synchronize to GitHub.
 ![pipeline of editing code](./vscode.png)
+
+😲😲😲
+You can also play with **[Codespaces](https://docs.github.com/en/codespaces/overview)**
+![Codespaces](https://docs.github.com/assets/cb-77061/mw-1440/images/help/codespaces/codespaces-diagram.webp)
