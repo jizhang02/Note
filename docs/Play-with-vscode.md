@@ -17,7 +17,7 @@ Suppose the VSCode is intalled under Windows OS, then VSCode can do many things:
   * LaTex, writing tex file.
   * plenty of extensions...
 
-An example:    
+An example of Git and VSCode linkage:    
 1. Open one of your repos in GitHub by GitHub Desktop (you can also open it in online codespaces);
 2. Then open the repo and edit your code in the VSCode;
 3. Stage changes;
