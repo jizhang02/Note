@@ -55,7 +55,6 @@
 * `sudo passwd root`, change password of root
 #### WSL=Windows subsystom linux
 * A good subsitute for vmware virtual machine.
-* 动态IP地址设置为静态 [solution](https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723)-> failed.
 * version ` wsl -l -v`
 * `sudo apt-get install x11-apps ` to support visualization, `xeyes` for testing.
 * in CMD, `ubuntu config --default-user jing or root`, change user or root user.
@@ -140,6 +139,9 @@
 * Overlay: Left upper coner of show panel > F > B 
 * MIP: Lookup tables > PET-Maximum Intensity Projection
 * Isodose: In radiotherapy, set threshold value of each line
+
+#### Medical Image Analysis Using ITKK-SNAP software
+* todo
 
 #### Latex
 adjust blank:
