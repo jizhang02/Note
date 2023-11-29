@@ -141,7 +141,9 @@
 * Isodose: In radiotherapy, set threshold value of each line
 
 #### Medical Image Analysis Using ITKK-SNAP software
-* todo
+* Easy to open a CT and PET image in one window or both two windows, the position is the same.
+* Adjust contrast by clicking auto mode.
+* Load segmentation masks on the CT images and segmentation organs in 3D mode.
 
 #### Latex
 adjust blank:
