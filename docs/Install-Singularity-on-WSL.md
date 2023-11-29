@@ -12,7 +12,7 @@ Thus, this note records the installation of Singularity on WSL.
 ![flowchart](https://github.com/jizhang02/Figure-Factory/blob/becd08a8af7027a7f77a6cbcce654f6f810972f3/Fig_CS/Figure-Factory-install%20singularity.drawio.png)
 #### Installlation and Test
 * step 1 -> Start: open terminal of WSL
-* step 2 -> install Singularity: [official user guide](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html)
+* step 2 -> install Singularity: [official user guide](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html) or more simple one [Tutorial](https://singularity-tutorial.github.io/01-installation/)
 * step 3 -> pull a container: `sudo singularity -d build --sandbox sandbox_anaconda/ docker://continuumio/anaconda3`  
 * step 4 -> run: `sudo singularity run --writable sandbox_anaconda/`
 * step 5 -> install libraries: `apt-get update`; `apt install -y vim`; `pip install opengate`
