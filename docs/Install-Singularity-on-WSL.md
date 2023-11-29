@@ -13,12 +13,12 @@ Thus, this note records the installation of Singularity on WSL.
 #### Installlation and Test
 * step 1 -> Start: open terminal of WSL
 * step 2 -> install Singularity: [official user guide](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html) or more simple one [Tutorial](https://singularity-tutorial.github.io/01-installation/)
-* step 3 -> pull a container: `sudo singularity -d build --sandbox sandbox_anaconda/ docker://pnnlmiscscripts/anaconda`  
-* step 4 -> run: `sudo singularity shell --writable sandbox_anaconda/`
+* step 3 -> pull a container: `sudo singularity -d build --sandbox sandbox_anaconda/ docker://bitnami/python:3.9`  
+* step 4 -> run: `sudo singularity shell --writable sandbox_gate/`
 * step 5 -> install libraries: `apt-get update`; `apt install -y vim`; `pip install opengate`
-* step 6 -> install missing libraries
+* step 6 -> install missing libraries e.g. `apt-get update && apt-get install ffmpeg libsm6 libxext6  -y`
 * step 7 -> Test: `python`; `import opengate`
-* step 8 -> Build the container into image: `sudo singularity build conda_single.sif sandbox_anaconda/`
+* step 8 -> Build the container into image: `sudo singularity build conda_single.sif sandbox_gate/`
 
 #### Note
 In step 5, before installing opengate or a library, I create a conda environment via `conda create -n mc python=3.9`, this can prevent from being affected by other complicated settings. To make the `mc` environment as default, change the `~/.bashrc`, add a line `conda activate mc` or `export PATH="/opt/conda/envs/mc/bin:$PATH" `, then `source ~/.bashrc` to make it into effect.
