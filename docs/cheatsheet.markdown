@@ -53,6 +53,7 @@
 * `su root`, change to root user
 * `su jing`, change to other user
 * `sudo passwd root`, change password of root
+* `passwd` change password
 #### WSL=Windows subsystom linux
 * A good subsitute for vmware virtual machine.
 * version ` wsl -l -v`
