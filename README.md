@@ -21,10 +21,10 @@ Technical notes on computer science and medical image analysis.
 
 ## Technotes lists
 * [Insatall ROOT on WSL](/docs/Install-ROOT-on-WSL.md)
-* [Pass Arguments methods in python](/docs/PassArguementsPython.md)
 * [Install OpenGATE on WSL](/docs/Install-OpenGATE-on-WSL.md) 
 * [Install Singularity on WSL](/docs/Install-Singularity-on-WSL.md) <!--it must be no space in the file!-->
-* [Insatall CUDA 12, Tensorflow 2.12 on WSL](/docs/Tensorflow-WSL.md)
+* [Insatall CUDA 12, Tensorflow 2.12 on WSL](/docs/Install-Tensorflow-on-WSL.md)
+* [Pass Arguments methods in python](/docs/PassArguementsPython.md)
 * [SLURM](/docs/SLURM.md)
 * [Play with VSCode](/docs/Play-with-vscode.md)    
 * [Cheatsheet](/docs/cheatsheet.markdown)
