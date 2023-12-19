@@ -14,7 +14,14 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 
 
 ### Test
-C++: `snap run root-framework`
+* in C++
+  
+`snap run root-framework` or `root`
 
-Python: `pyroot` (instead of python) `>>> import ROOT`
+
+* in Python
+  
+ `pyroot` (instead of `python`) `>>> import ROOT`
+
+`pyroot root.py`
 
