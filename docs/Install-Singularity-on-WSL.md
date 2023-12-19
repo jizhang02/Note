@@ -1,7 +1,8 @@
-## Install Singularity on WSL
+# Install Singularity on WSL
 
+### preface
 
-#### Motivation
+#### 🧐 What is Singularity
 When we do high performance computing (HPC) on cluster, the corresponding running environment should also be uploaded. In the other words, the programs should work in a specific container.
 Luckily, Singlularity is just doing this. It's a platform that can load various containers. 
 Plus, Singularity is mainly used on Linux system. But personally I prefer to Windows system, in order to run programs on Linux, Windows Subsystem Linux (WSL) is a good choise.
@@ -10,7 +11,7 @@ Plus, Singularity is mainly used on Linux system. But personally I prefer to Win
 
 Thus, this note records the installation of Singularity on WSL.
 ![flowchart](https://github.com/jizhang02/Figure-Factory/blob/becd08a8af7027a7f77a6cbcce654f6f810972f3/Fig_CS/Figure-Factory-install%20singularity.drawio.png)
-#### Installlation and Test
+### Installlation and Test
 * step 1 -> Start: open terminal of WSL
 * step 2 -> install Singularity: [official user guide](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html) or more simple one [Tutorial](https://singularity-tutorial.github.io/01-installation/)
 * step 3 -> pull a container: `sudo singularity -d build --sandbox sandbox_anaconda/ docker://bitnami/python:3.9`  
@@ -41,7 +42,7 @@ In step 5, before installing opengate or a library, I create a conda environment
   * [Docker Image Anaconda3](https://hub.docker.com/r/continuumio/anaconda3)
   * [missing libraries when installing opengate](https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo)
 
-# Singularity container with tensorflow/pytorch GPU
+### Singularity container with tensorflow/pytorch GPU
 
 #### Step 0: Make sure `nvidia-smi` worked after installing the NVIDIA GPU driver
    
