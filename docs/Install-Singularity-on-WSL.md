@@ -11,9 +11,15 @@ Plus, Singularity is mainly used on Linux system. But personally I prefer to Win
 
 Thus, this note records the installation of Singularity on WSL.
 ![flowchart](https://github.com/jizhang02/Figure-Factory/blob/becd08a8af7027a7f77a6cbcce654f6f810972f3/Fig_CS/Figure-Factory-install%20singularity.drawio.png)
-### Installlation and Test
+
+### Installation
 * step 1 -> Start: open terminal of WSL
 * step 2 -> install Singularity: [official user guide](https://docs.sylabs.io/guides/latest/user-guide/quick_start.html) or more simple one [Tutorial](https://singularity-tutorial.github.io/01-installation/)
+    * update packages
+    * install Go language
+    * install Singularity
+
+### Test
 * step 3 -> pull a container: `sudo singularity -d build --sandbox sandbox_anaconda/ docker://bitnami/python:3.9`  
 * step 4 -> run: `sudo singularity shell --writable sandbox_gate/`
 * step 5 -> install libraries: `apt-get update`; `apt install -y vim`; `pip install opengate`
@@ -21,9 +27,9 @@ Thus, this note records the installation of Singularity on WSL.
 * step 7 -> Test: `python`; `import opengate`
 * step 8 -> Build the container into image: `sudo singularity build conda_single.sif sandbox_gate/`
 
-#### Note
-In step 5, before installing opengate or a library, I create a conda environment via `conda create -n mc python=3.9`, this can prevent from being affected by other complicated settings. To make the `mc` environment as default, change the `~/.bashrc`, add a line `conda activate mc` or `export PATH="/opt/conda/envs/mc/bin:$PATH" `, then `source ~/.bashrc` to make it into effect.
-#### Usage
+⚠️ In step 5, before installing opengate or a library, I create a conda environment via `conda create -n mc python=3.9`, this can prevent from being affected by other complicated settings. To make the `mc` environment as default, change the `~/.bashrc`, add a line `conda activate mc` or `export PATH="/opt/conda/envs/mc/bin:$PATH" `, then `source ~/.bashrc` to make it into effect.
+
+### Usage
 * Bind a path:    
 `sudo singularity run -B /home2/jzhang/python_code/DeepRT/ conda_single.sif`     
 `python3 main.py`
@@ -34,13 +40,6 @@ In step 5, before installing opengate or a library, I create a conda environment
 
 * with GPU support:    
 `srun singularity exec --nv /home/jzhang/image_torch.sif python3 main.py` on cluster
-
-#### Reference
-  * [Singularity 容器使用介绍](https://www.xiexianbin.cn/hpc/singularity/index.html)
-  * [Singularity实践教程 + Docker 转 Singularity 的避坑指南](https://blog.csdn.net/Tanqy1997/article/details/125304273)
-  * [anaconda设置默认的启动环境](https://blog.csdn.net/weixin_40548136/article/details/106331324)
-  * [Docker Image Anaconda3](https://hub.docker.com/r/continuumio/anaconda3)
-  * [missing libraries when installing opengate](https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo)
 
 ### Singularity container with tensorflow/pytorch GPU
 
@@ -56,9 +55,9 @@ In step 5, before installing opengate or a library, I create a conda environment
 [https://hub.docker.com/r/tensorflow/tensorflow/tags](https://hub.docker.com/r/tensorflow/tensorflow/tags)    
 [https://hub.docker.com/r/pytorch/pytorch/tags](https://hub.docker.com/r/pytorch/pytorch/tags)    
 
-#### Step 2: Install specific python libraries in sandbox    
+#### Step 2: Install specific Python libraries in sandbox    
   
-`sudo singularity build --sandbox image_name/ image_name.sif` Convert a singularity image to a sandox folder with superuse privileges       
+`sudo singularity build --sandbox image_name/ image_name.sif` Convert a singularity image to a sandbox folder with superuser privileges       
 `sudo singularity shell --writable sandbox_tensorflow/` Shell writable to image_name       
 `sudo singularity shell --writable sandbox_torch/`   
    
@@ -67,12 +66,11 @@ test:
 `python`   
 `import libname`    
 
-👽 a strange finding: 
+👽 a strange finding-> ✨a sandbox is not necessary!
 ```
 singularity run image.sif
 pip install libname
 ```
-✨a sandbox is not necessary!
 
 #### Step 3: Build sandbox into image file     
 `sudo singularity build image_tensorflow.sif sandbox_tensorflow/`    
@@ -101,4 +99,9 @@ print(tf.__version__)
 print(tf.test.is_gpu_available())
 print(tf.config.list_physical_devices('GPU'))    
 ```
-
+#### Reference
+  * [Singularity 容器使用介绍](https://www.xiexianbin.cn/hpc/singularity/index.html)
+  * [Singularity实践教程 + Docker 转 Singularity 的避坑指南](https://blog.csdn.net/Tanqy1997/article/details/125304273)
+  * [anaconda设置默认的启动环境](https://blog.csdn.net/weixin_40548136/article/details/106331324)
+  * [Docker Image Anaconda3](https://hub.docker.com/r/continuumio/anaconda3)
+  * [missing libraries when installing opengate](https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo)
