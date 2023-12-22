@@ -26,9 +26,8 @@ Technical notes on computer science and medical image analysis.
 * [Insatall CUDA 12, Tensorflow 2.12 on WSL](/docs/Install-Tensorflow-on-WSL.md)
 * [Pass Arguments methods in python](/docs/PassArguementsPython.md)
 * [SLURM](/docs/SLURM.md)
-* [Play with VSCode](/docs/Play-with-vscode.md)    
+* [Play with VSCode](/docs/Play-with-vscode.md)
 * [Cheatsheet](/docs/cheatsheet.markdown)
-* [Medical Imaging](/docs/medical-imaging.md)
 * [Workflow of DL](/docs/DL-workflow.md)
 
 ## Contributing
