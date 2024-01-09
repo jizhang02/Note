@@ -11,7 +11,8 @@ This note reveals very basic usage of shell script based on SLURM.
 * `squeue -u username` see the jobs under a user
 * `squeue -l` see the jobs
 * `squeue --start` see the waiting jobs
-* `scontrol show partition name` or `scontrol show node name` or `scontrol show job name` see specific part
+* `scontrol show nodename` or `scontrol show job name` show info of nodes or jobs
+* `scontrol show node` show info of all nodes
 * `scancel jobid` cancel a job
 * `scancel -u username` cancel all jobs with a user
 * `scancel -u username -p partition` cancel jobs witha a user under certain partition
