@@ -156,8 +156,28 @@ adjust the space between title and fig
 adjust the distance between title and the below context
 `\setlength{\belowcaptionskip}{-1cm} `
 
-```\begin{equation}
+```
+\begin{equation}
 \setlength{\abovedisplayskip}{3pt}
 \setlength{\belowdisplayskip}{3pt}
 y(t)=a(t)-b(t).
-\end{equation}```
+\end{equation}
+```
+
+table:    
+`tabular*` can automatically adjust the width to fit the text.    
+`{\textwidth}` width of column`{@{\extracolsep{\fill}} ll}` column setting    
+
+```
+\begin{table}[htbp]
+\caption{Dataset}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} ll}
+\toprule
+data 1 & data 2 \\
+\midrule
+ 1 &  2 \\
+ 3 &  4 \\
+\bottomrule
+\end{tabular*}
+\end{table}
+```
