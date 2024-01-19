@@ -49,6 +49,7 @@
 * `sudo apt-get remove --auto-remove qtcreator` uninstall software
 * `scp -r /datapath/* username@ip address:/savepath/` upload data to cluster
 * `ls -l . | egrep -c '^-'` check file numbers
+* `ls -lh path/file_name` check file size 
 * `ffmpeg -i input.mp3 -ss 00:01:00 -to 00:05:23.27 -c copy output.mp3` edit audio length
 * `su root`, change to root user
 * `su jing`, change to other user
