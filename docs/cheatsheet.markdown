@@ -143,12 +143,12 @@
 * MIP: Lookup tables > PET-Maximum Intensity Projection
 * Isodose: In radiotherapy, set threshold value of each line
 
-#### Medical Image Analysis Using ITKK-SNAP software
+#### Medical Image Analysis Using ITK-SNAP software
 * Easy to open a CT and PET image in one window or both two windows, the position is the same.
 * Adjust contrast by clicking auto mode.
 * Load segmentation masks on the CT images and segmentation organs in 3D mode.
 
-#### Latex
+#### LateX
 adjust blank:
 
 `\setlength{\abovedisplayskip}{3pt} `    
@@ -182,4 +182,9 @@ data 1 & data 2 \\
 \bottomrule
 \end{tabular*}
 \end{table}
+```
+split a cell into two rows
+
+```
+\begin{tabular}[c]{@{}c@{}} part A \\ part B \end{tabular} 
 ```
