@@ -18,6 +18,10 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
   
 `snap run root-framework` or `root`
 
+`root pet.root` open a root file
+
+`TBrowser b` open a interactive browser
+
 
 * in Python
   
@@ -25,6 +29,6 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 
 `pyroot root.py`
 
-
-🌟🌟🌟another way to read and write root file:    
+### Install uproot to read and write root files
+🌟🌟🌟another way (Python) to read and write root file:    
 `pip install uproot` [Tutorial](https://uproot.readthedocs.io/en/latest/basic.html)
