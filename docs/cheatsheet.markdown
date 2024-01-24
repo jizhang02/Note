@@ -128,7 +128,9 @@
 * View 3D imagein 3 directions: Ctrl+Shift+H
 * Image > Stacks > Make Montage: show all slices in a table
 * Image > Stacks > Images to Stack: make multiple images into a stack
-* Image > Stacks > Z Project (Max intensity): make all the slices into one slice
+* Image > Stacks > Z Project (Max intensity): make all the max value of slices into one slice
+* Image > Stacks > Z Project (Average intensity): make all the average value of slices into one slice
+* Image > Stacks > Z Project (Sum slices): make all the slices into one slice
 * Process > Enhance Contrast: show pet image more clearly
 * Image > Overlay: add another image on the current image
 * Export GIF: Image > Stacks > 3D Project, then click File > Save as > GIF
