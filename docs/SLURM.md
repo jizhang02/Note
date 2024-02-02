@@ -18,7 +18,8 @@ This note reveals very basic usage of shell script based on SLURM.
 * `scancel -u username -p partition` cancel jobs witha a user under certain partition
 * `sacct -j ID-number` the state of a job,  four states: Pending; Running; Completed;Failed
 * `htop` see CPU info    
-* `nvidia-smi` see GPU info    
+* `nvidia-smi` see GPU info
+* `watch squeue -u user` watch jobs
 
 ### Usage of shell file
 🔸detailed version:
@@ -26,9 +27,11 @@ This note reveals very basic usage of shell script based on SLURM.
 `#!/bin/bash` tell computer to use which shell    
 `#SBATCH --partition=partition1,partition2,partition3...` select partitions based on available partitions, comma, no space  
 `#SBATCH --gres=gpu:2` specify the gpu if has and the number of gpu    
-`#SBATCH --cpus-per-task=1` the number of cpu each task   
+`#SBATCH --cpus-per-task=16` the number of cpus each task   
 `#SBATCH --ntasks=1` specify the number of tasks to run   
 `#SBATCH --job-name=anyname` the job name    
+`#SBATCH --mem-per-cpu=1500MB` the memory of each cpu    
+`#SBATCH --mem=50GB` the memory of global cpus, e.g. if use 16 cpus, then the total memory of those cpus is 50GB    
 `#SBATCH --array=1-4` specify job array, e.g. from 1 to 4, 4 jobs  
 `#SBATCH --out=absolute path/sim_result.txt` output results  
 `#SBATCH --out=absolute path/sim_result_%a.txt` output different jobs' results    
