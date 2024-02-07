@@ -30,6 +30,7 @@
 * `print(f'text {variable:.3f}')` print in specific format
 #### Terminal
 * `hostname -I` ip address
+* `ps` or `top` show running programs
 * `sudo vi /etc/hostname` change hostname, remember to reboot
 * `ps -ef | grep ssh` check ssh
 * `python --version` check python version
