@@ -71,7 +71,7 @@ test:
 singularity run image.sif
 pip install libname
 ```
-
+⚠️ in this case, the libs are installed in local path, e.g. '/home2/jzhang/.local/bin', not in .sif file. 
 #### Step 3: Build sandbox into image file     
 `sudo singularity build image_tensorflow.sif sandbox_tensorflow/`    
 `sudo singularity build image_torch.sif sandbox_torch/`    
