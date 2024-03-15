@@ -24,6 +24,8 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 
 `branch name->Show(eventid)`
 
+`.q` exit
+
 `TBrowser b` open a interactive browser
 
 
