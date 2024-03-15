@@ -22,7 +22,9 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 
 `.ls` show info
 
-`branch name->Show(eventid)`
+`branch name->GetEntries()` number of events
+
+`branch name->Show(eventid)` info of an event
 
 `.q` exit
 
