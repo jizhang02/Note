@@ -20,6 +20,10 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 
 `root pet.root` open a root file
 
+`.ls` show info
+
+`branch name->Show(eventid)`
+
 `TBrowser b` open a interactive browser
 
 
