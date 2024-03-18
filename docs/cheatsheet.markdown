@@ -49,6 +49,7 @@
 * `pip install opengate -U` update lib
 * `sudo apt-get remove --auto-remove qtcreator` uninstall software
 * `scp -r /datapath/* username@ip address:/savepath/` upload data to cluster
+* `scp -r username@ip address:'/remotepath/file_{367..497}.root' savepath` batch download files to local
 * `ls -l . | egrep -c '^-'` check file numbers
 * `ls -lh path/file_name` check file size 
 * `ffmpeg -i input.mp3 -ss 00:01:00 -to 00:05:23.27 -c copy output.mp3` edit audio length
