@@ -152,6 +152,7 @@
 * Easy to open a CT and PET image in one window or both two windows, the position is the same.
 * Adjust contrast by clicking auto mode.
 * Load segmentation masks on the CT images and segmentation organs in 3D mode.
+* PaintBrushMode on masks->Right click, move label; Left click, add label.
 
 #### LateX
 adjust blank:
