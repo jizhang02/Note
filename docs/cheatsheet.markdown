@@ -149,10 +149,11 @@
 * Isodose: In radiotherapy, set threshold value of each line
 
 #### Medical Image Analysis Using ITK-SNAP software
-* Easy to open a CT and PET image in one window or both two windows, the position is the same.
-* Adjust contrast by clicking auto mode.
+* It is easy to open a CT and PET image in one window or both two windows, the position is the same.
+* Adjust the contrast by clicking auto mode.
 * Load segmentation masks on the CT images and segmentation organs in 3D mode.
 * PaintBrushMode on masks->Right click, move label; Left click, add label.
+* LabelEditor -> Hide certain labels in all windows to only show one label.
 
 #### LateX
 adjust blank:
