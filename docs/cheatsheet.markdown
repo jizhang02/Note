@@ -66,54 +66,12 @@
 * in CMD, `wsl --shutdown`, shutdown the wsl system.
 * in CMD, `wsl -l`, print info of OS.
   
-#### Opengate
-* GitHub https://github.com/OpenGATE/opengate
-* two parts
-  * opengate_core -> C++ based
-  * opengate -> Python based 
-* Units
-
-      micrometer              (um)        微米
-      millimeter              (mm)        毫米
-      centimeter              (cm)        厘米
-      meter                   (m)         米
-      nanosecond              (ns)        纳秒
-      second                  (second)    秒
-      Kilo election Volt      (KeV)       千电子伏特
-      Mega electron Volt      (MeV)       兆电子伏特
-      positron charge         (eplus)     正电子电荷
-      degree Kelvin           (kelvin)    温度计量单位
-      the amount of substance (mole)      摩尔，物质的量
-      luminous intensity      (candela)   坎德拉，发光强度
-      radian                  (radian)    弧度
-      steradian               (steradian) 球面度
-      Becquerel               (Bq)        贝克，放射性活度，每秒衰变的原子个数
-      gcm3                    (g/cm3)     克每立方厘米，密度单位
-
-
-* Simulation
-  * Geometry
-  * Physics
-  * Source
-  * Actors
-* Stats
-
-      NumberOfRun               = 1
-      NumberOfEvents            = 20000
-      NumberOfTracks            = 103511
-      NumberOfSteps             = 726120
-      NumberOfGeometricalSteps  = 27558
-      NumberOfPhysicalSteps     = 698562
-      PPS (Primary per sec)     = 7998.91
-      TPS (Track per sec)       = 41398.7
-      SPS (Step per sec)        = 290408
-
 #### Hybrid programming between python and C/C++
 * Essence: python calls dynamic link libraries compiled by C/C++. e.g. convert the data types in python to those in c/c++, pass them to the compiled functions, and then convert returned parameters to the data types in python.
 * C/C++ --> dynamic link library (Pybind11) <-- Python
 
 
-#### LateX
+#### LaTeX
 adjust blank:
 
 `\setlength{\abovedisplayskip}{3pt} `    
