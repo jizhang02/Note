@@ -40,7 +40,7 @@
 * Adjust the contrast by clicking auto mode.
 * Load segmentation masks on the CT images and segmentation organs in 3D mode.
 * PaintBrush Mode on masks->Right click, remove label; Left click, add label.
-* Polygon Mode -> Draw line on current label -> accept -> move to next slide -> paste last polygon.
+* Polygon Mode -> Draw line on current label -> accept -> move to next slide -> paste last polygon -> fine drag the line.
 * LabelEditor -> Hide certain labels in all windows to only show one label.
 * LabelEditor -> Actions -> Import/Export Label Descriptions.
 * 
