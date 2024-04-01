@@ -16,6 +16,7 @@ Technical notes on computer science and medical image analysis.
 - Fun
 
 ## Technotes lists
+* [Using CuPy instead of Numpy](/docs/CuPy.md)
 * [Practice on medical image processing softwares](/docs/Medical-imaging-processing-software.md)
 * [Insatall ROOT on WSL](/docs/Install-ROOT-on-WSL.md)
 * [Install OpenGATE on WSL](/docs/Install-OpenGATE-on-WSL.md) 
