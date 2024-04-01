@@ -1,4 +1,10 @@
 # Practice on medical imaging processing software
+
+### Table of contents
+* [Medical Image Analysis Using FIJI software](#medical-image-analysis-using-fiji-software)
+* [Medical Image Analysis Using Slicer software](#medical-image-analysis-using-slicer-software)   
+* [Medical Image Analysis Using ITK-SNAP software](#medical-image-analysis-using-itk-snap-software)
+
 #### Medical Image Analysis Using FIJI software
 * open/import a specific file in different formats
 * zoom in/out an image: +/- key
