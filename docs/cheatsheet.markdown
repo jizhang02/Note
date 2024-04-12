@@ -52,7 +52,7 @@
 * `su jing`, change to other user
 * `sudo passwd root`, change password of root
 * `passwd`, change password
-* `watch squeue -u jzhang`, watch slurm jobs
+* `watch -n 10 squeue -u jzhang`, watch slurm jobs every 10 seconds
 * `df -h /`, check disk space
 * `du -sh /home2/jzhang/`, check total data used of certain path
 * `du /home2/jzhang/`, check detail data used of certain path
