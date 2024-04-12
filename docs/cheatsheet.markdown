@@ -21,12 +21,6 @@
 * `print(glob.glob("path/*.mhd"))` print files names
 * ` files = os.listdir(path);    files.sort()` sort the files names
 * `for x, y in zip(directory_image, directory_label):` double loop
-* interpreters/environments
-  * Windows-> Python3.8 _for basics_
-  * Ubuntu->Anaconda->mc    Python3.8 _for opengate_
-  * Ubuntu->Anaconda->base    Python3.8 _for basics_
-  * Ubuntu->Anaconda->tf-gpu    Python3.8 _for tensorflow gpu_
-  * Ubuntu->Anaconda->torch-gpu    Python3.8 _for pytorch gpu_
 * `print(f'text {variable:.3f}')` print in specific format
 #### Terminal
 * `hostname -I` ip address
@@ -59,6 +53,10 @@
 * `sudo passwd root`, change password of root
 * `passwd`, change password
 * `watch squeue -u jzhang`, watch slurm jobs
+* `df -h /`, check disk space
+* `du -sh /home2/jzhang/`, check total data used of certain path
+* `du /home2/jzhang/`, check detail data used of certain path
+* 
 #### WSL=Windows subsystom linux
 * A good subsitute for vmware virtual machine.
 * version ` wsl -l -v`
