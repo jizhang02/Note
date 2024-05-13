@@ -1,6 +1,6 @@
 # Play with VSCode
 
-![what can VSCode do](https://github.com/jizhang02/Figure-Factory/blob/b87a74a3a52fe7a383d39086468d05a2a57111cb/Fig_CS/Figure-Factory-vscode.drawio.png)
+![what can VSCode do](fig/vscode.png)
 
 Suppose the VSCode is intalled under Windows OS, then VSCode can do many things:
 * Side by side editing any files, such as .py, .md, etc.
