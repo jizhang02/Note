@@ -52,7 +52,7 @@ This note reveals very basic usage of shell script based on SLURM.
 
 Workflow of prepareing a shell script based on SLURM:
 
-![slurm flowchart](https://github.com/jizhang02/Figure-Factory/blob/b1b6ccb6fb9fd26525a84803763934d77a264d92/Fig_CS/Figure-Factory-Page-3.drawio.png)
+![slurm flowchart](fig/use-singularity.png)
 * **Case 1: submit a single job**
 
 🐚 in shell (pytest.sh):
