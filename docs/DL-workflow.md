@@ -1,11 +1,12 @@
-# Workflow of training a deep learning model -- PASTTE
+# Workflow of training a deep learning model
 ### Table of contents
 * [Prepare dataset](#prepare-dataset)
 * [Architechture](#architecture)   
 * [Set up environment](#set-up-environment)
 * [Training](#training)    
 * [Testing](#testing)   
-* [Evaluation](#evaluation)    
+* [Evaluation](#evaluation)
+* [Common errors](#commen-errors) 
 
 ### Prepare dataset
 ### Architecture
@@ -22,4 +23,7 @@
 ### Testing
 
 ### Evaluation
+
+### Common errors
+PyTorch errors 
 
