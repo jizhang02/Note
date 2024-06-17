@@ -13,8 +13,8 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 `sudo snap install root-framework`
 
 
-### Test
-* in C++
+### Analysis
+* in terminal
   
 `snap run root-framework` or `root`
 
@@ -29,7 +29,12 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 `.q` exit
 
 `TBrowser b` open a interactive browser
-
+#### Check hits info
+todo
+#### Check singles info
+todo
+#### Check coincidences info
+todo
 
 * in Python
   
@@ -40,3 +45,18 @@ After installation, use it by: `snap search <application>` `sudo snap install <a
 ### Install uproot to read and write root files
 🌟🌟🌟another way (Python) to read and write root file:    
 `pip install uproot` [Tutorial](https://uproot.readthedocs.io/en/latest/basic.html)
+#### Check hits info
+```
+todo
+
+```
+#### Check singles info
+```
+todo
+
+```
+#### Check Coincidence info
+```
+todo
+
+```
