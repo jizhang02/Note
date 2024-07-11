@@ -26,9 +26,7 @@
 
 ### Training
 ☑️ Strategy 1: Two-step pipeline. For instance, coarse segmentation (ROI detection) --> fine segmentation.    
-👉Corresponding philosophical thoughts:    
 ☑️ Strategy 2: Compound loss functions. Main loss and auxiliary loss with weights. For instance, Dice+CE, Dice+Focal.    
-👉Corresponding philosophical thoughts:    
 ☑️ Strategy 3: Think if a gradient is needed in some parts.    
 ☑️ Strategy 4: Training time augmentation (TTA).
 
@@ -37,7 +35,6 @@
 ### Evaluation
 ☑️ Metrics  
 ### Common errors
-👉 PyTorch errors     
 ⁉️ **RuntimeError**: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward.        
 💠 Solution1: `retain_graph=True`    
 💠 Solution2: check `torch.no_grad()` and `var.detach()`    
